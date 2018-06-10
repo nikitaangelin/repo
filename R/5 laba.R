@@ -2,7 +2,7 @@
 
 pmean<-function(directory,pollutant,id=1:332){
   d<-directory
-  setwd(paste0("C:/Users/Lena/Desktop/R_Lab/",d))
+  setwd(paste0("C:/Users/Nikita/Desktop/",d))
   i<-1
   file_out<-data.frame()
   while (i<=length(id)){
